@@ -2,19 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Zergling />
+    <iframe src="../static/test.html" width="1000" height="1000"></iframe>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Zergling from './components/Zergling.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Zergling
+    HelloWorld
   }
 }
 </script>
