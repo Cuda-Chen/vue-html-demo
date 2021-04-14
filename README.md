@@ -13,6 +13,8 @@ yarn serve
 ### Compiles and minifies for production
 ```
 yarn build
+cd dist
+cp -r ../static/ .
 ```
 
 ### Lints and fixes files
